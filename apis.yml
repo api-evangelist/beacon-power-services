@@ -1,8 +1,27 @@
 aid: beacon-power-services
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/beacon-power-services.png
 name: Beacon Power Services
-description: 'Beacon Power Services is a company surfaced as a portfolio company of partech and added
-  to the API Evangelist network as a stub for enrichment. Sector: Industrial, Energy & IoT. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: 'Beacon Power Services (BPS) is an African energy-technology company building software
+  that helps electricity utilities and energy consumers manage the power grid more efficiently. Its
+  platform spans three products: CAIMS, a customer and asset information management system for utility
+  network, survey, installation, and new-service-connection management; Adora, a grid network management
+  solution for commercial operations, network management, and field operations that helps utilities
+  optimize operations and increase profitability; and Xepp, a consumer mobile app for energy consumption
+  monitoring, instant electricity top-up, solar integration, and flexible payments. BPS serves utilities
+  and distribution companies across Africa (clients include ECG and AEDC) and is backed by Partech. This
+  profile currently has no public API or developer surface; it is tracked in the API Evangelist network
+  as a company lead.'
 url: https://raw.githubusercontent.com/api-evangelist/beacon-power-services/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +31,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Industrial, Energy & Iot
+- Energy
+- Utilities
+- Electricity
+- Grid Management
+- Africa
+- Energy Management
+- Smart Metering
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +49,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/beacon-power-services-domain-security.yml
 - type: Website
   url: https://beaconpowerservices.com/
+- type: Blog
+  url: https://beaconpowerservices.com/en/resources/blog
+- type: PrivacyPolicy
+  url: https://beaconpowerservices.com/en/policy
+- type: Support
+  url: https://beaconpowerservices.com/en/contact
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
