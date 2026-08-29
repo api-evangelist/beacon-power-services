@@ -34,6 +34,9 @@ description: 'Beacon Power Services (BPS) is an African energy-technology compan
   profile currently has no public API or developer surface; it is tracked in the API Evangelist network
   as a company lead.'
 url: https://raw.githubusercontent.com/api-evangelist/beacon-power-services/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "This profile currently has no public API or developer surface; it is tracked in the API Evangelist network as a company lead."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
